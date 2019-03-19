@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "umi dev",
+    "build": "umi build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/jesuisrachel/react/issues"
   },
-  "homepage": "https://github.com/jesuisrachel/react#readme"
+  "homepage": "https://github.com/jesuisrachel/react#readme",
+  "devDependencies": {
+    "umi": "^2.6.3",
+    "umi-plugin-react": "^1.7.1"
+  }
 }
